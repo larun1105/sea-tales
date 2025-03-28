@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to [Sea Tales Restaurant ] </title>
+    <link rel="stylesheet" href="style.css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#event">EVENTS</a></li>
+                    <li><a href="">BOOK A TABLE</a></li>
+                    <li><a href="">MENU</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+        <div class=" text-box">
+            <h1>Welcome to [Sea Tales Restaurant]</h1>
+            <p>Where Every Meal is a Celebration!
+            </p>
+            <a href="" class="hero-btn">vist us to know more</a>
+
+        </div>
+
+
+    </section>
+
+    <!------Restaurant-------->
+
+    <section class="Restaurant"  id="event">
+        <h1>About Us</h1>
+<p>Nestled in the heart of Chennai, Sea Tales Restaurant offers a multi-cuisine dining experience that blends exceptional flavors, elegant ambiance, and unforgettable moments. Whether you're planning a romantic dinner, a family gathering, a birthday celebration, or a corporate event, we provide the perfect setting for every occasion.
+</p>
+
+<div class="row">
+    <div class="Restaurant-col">
+        <h3>Live Koi Fish Ambiance</h3>
+        <p>Dine amidst a serene setting featuring a mesmerizing koi fish pond.</p>
+    </div>
+    <div class="Restaurant-col">
+        <h3>Surprise Events</h3>
+        <p>Celebrate birthdays, anniversaries, and proposals with our exclusive customized setups.</p>
+    </div>
+    <div class="Restaurant-col">
+        <h3>Private Cabin Dining</h3>
+        <p> Enjoy an intimate candlelight dinner with your loved one in a cozy, private space.
+        </p>
+    </div>
+  
+
+</div>
+<div class="row1">
+    <div class="Restaurant-col">
+        <h3>PLive Music & Nightlife</h3>
+        <p> Indulge in delicious food while enjoying live performances and a vibrant atmosphere. </p>
+    </div>
+    <div class="Restaurant-col">
+        <h3>Family & Kid-Friendly Dining</h3>
+        <p> A welcoming space perfect for family outings and celebrations. </p>
+    </div>
+</div>
+
+
+    </section>
+
+<!-- --------Menu------ -->
+  <section class="Menu">
+     <h1>Our Menu</h1>
+     <p>
+        Join us at SEA TALES RESTAURANT, we're passionate about serving up delicious, mouth-watering meals that will leave you feeling satisfied and eager for more. Our menu features a range of tasty options, from classic comfort food to innovative twists on old favorites.
+        </p>
+ <div class="row">
+    <div class="Menu-col">
+        <img src="images/maindish.jpg">
+        <h3></h3>
+
+    </div>
+
+ </div>       
+
+  </section>  
+
+    <!-- ------javaScript for Toggle Menu------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
